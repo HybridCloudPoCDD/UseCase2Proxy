@@ -8,7 +8,7 @@ require("appdynamics").profile({
  accountAccessKey: 'h3twuv1oqm8p',
  applicationName: 'Tasks',
  proxyHost: '10.70.103.150',
- proxyPort: '443', 
+ proxyPort: '80', 
  tierName: process.env.HOSTNAME || 'deftier',
  nodeName: 'process' // The controller will automatically append the node name with a unique number
 });
